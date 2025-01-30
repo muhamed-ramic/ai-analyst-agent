@@ -1,0 +1,23 @@
+{
+  "name": "ai-analyst-agent",
+  "version": "1.0.0",
+  "description": "AI-powered code analysis and documentation generator",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.1.1",
+    "@langchain/core": "^0.1.1",
+    "dotenv": "^16.0.3",
+    "fs-extra": "^11.1.0",
+    "glob": "^10.3.3",
+    "langchain": "^0.1.21",
+    "markdown-it": "^13.0.1",
+    "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
